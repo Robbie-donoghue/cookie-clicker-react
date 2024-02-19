@@ -12,7 +12,7 @@ export default function Timer({ count, setCount, cps }) {
   //return jsx
   return (
     <div className="cookies">
-      <h1> Cookies :{count}</h1>
+      <h1> Cookies:{count}</h1>
     </div>
   );
 }

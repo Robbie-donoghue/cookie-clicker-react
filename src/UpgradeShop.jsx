@@ -22,8 +22,3 @@ export function UpgradeShop({ count, setCount, cps, setCps }) {
     </>
   );
 }
-
-// let myorops = {
-//   count: 10,
-//  item: { price: 10, name: grannies, increase: 5 },
-// };
