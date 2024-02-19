@@ -6,7 +6,7 @@ export function UpgradeShop({ count, setCount, cps, setCps }) {
   return (
     <>
       {upgrades.map((item) => (
-        <div>
+        <div key={item.id}>
           <p>{item.name}</p>
           <p> cost :{item.price}</p>
           <p> Increase : {item.increase}</p>
